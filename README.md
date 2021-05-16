@@ -9,9 +9,9 @@ The CDK app uses AWS API Gateway to expose an AWS lambda function that interacts
 The dynamodb table contains mappings from the short form of a given URL (represented as the first 8 digits of a UUID) 
 to it's original form.
 
-For example, the UUID "6c819f46" may be mapped to https:google.ca
+For example, the UUID "6c819f46" may be mapped to https://google.ca
 
-A user can hit the application with a targetURL query parameter like this:
+A user can hit the application with a targetUrl query parameter like this:
 
 https://ypkpbq4kkg.execute-api.us-west-2.amazonaws.com/prod/?targetUrl=https://google.ca
 
