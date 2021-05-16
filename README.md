@@ -14,12 +14,12 @@ This CDK app uses API Gateway to expose a lambda function that either:
 
 Hitting this URL: 
 
-```https://ypkpbq4kkg.execute-api.us-west-2.amazonaws.com/prod/?targetUrl=https://google.ca```
+https://ypkpbq4kkg.execute-api.us-west-2.amazonaws.com/prod/?targetUrl=https://google.ca
 
-will return a short URL for ```google.ca```. 
+will return a short URL for https://google.ca. 
 
 For example, the URL shortener may give you back this URL:
 
 https://ypkpbq4kkg.execute-api.us-west-2.amazonaws.com/prod/6c819f46
 
-Hitting the above link in any browser will redirect you to ```https://google.ca```.
+Hitting the above "short" url in any browser will redirect you back to https://google.ca.
