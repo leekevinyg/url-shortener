@@ -4,7 +4,7 @@ A simple URL shortener built using the AWS Cloud Development Kit (CDK)
 
 ## Architecture
 
-This CDK app uses API Gateway to expose a lambda function that either:
+This CDK app uses AWS API Gateway to expose a AWS lambda function that either:
 
 1. Creates a short URL in a dynamodb table
 
