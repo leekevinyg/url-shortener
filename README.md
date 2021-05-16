@@ -11,7 +11,7 @@ back to it's original long form.
 
 For example, the UUID "65d44f02" may be mapped to an URL like this: https://www.google.ca/search?q=aws+cdk&sxsrf=ALeKk01gM4j3GhFn9tQqnovbXfe5U9a4iA:1621146687135&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjU7aiDys3wAhWSrp4KHXOtAZoQ_AUoA3oECAEQBQ&biw=1920&bih=1432
 
-## Usage Guide
+## Usage Guide and Demo
 
 A user can hit the application with a targetUrl query parameter like this:
 
