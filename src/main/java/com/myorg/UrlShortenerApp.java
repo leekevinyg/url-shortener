@@ -34,6 +34,12 @@ public class UrlShortenerApp {
                 // For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html
                 .build());
 
+        new TrafficStack(app, "TrafficStack", StackProps.builder()
+                .env(Environment.builder()
+                        .account("676362153681")
+                        .region("us-west-2")
+                        .build())
+                .build());
         app.synth();
     }
 }
