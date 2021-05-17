@@ -21,3 +21,7 @@ to receive the short form of the URL:
 https://ypkpbq4kkg.execute-api.us-west-2.amazonaws.com/prod/65d44f02
 
 Hitting the short form of the URL will then redirect the user back to the original long form.
+
+## Testing
+
+The app contains a deployable TrafficStack that spins up an ECS Fargate container and generates some traffic at our service URL above.
